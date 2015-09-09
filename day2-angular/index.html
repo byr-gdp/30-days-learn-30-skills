@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Online Bookstore</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container" ng-controller="personCtrl">
+		<h2>Online Bookstore</h2>
+		<input type="text" ng-model="filterKey">
+		<ul>
+			<li ng-repeat="person in persons | filter: filterKey | orderBy: 'age'">
+				{{person.name}} | {{person.age}}
+			</li>
+		</ul>
+	</div>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

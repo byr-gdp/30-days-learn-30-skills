@@ -1,0 +1,24 @@
+{
+  "name": "online bookstore",
+  "version": "0.0.1",
+  "authors": [
+    "byr-gdp <anthozoan77@bupt.edu.cn>"
+  ],
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "if-true.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5",
+    "bootstrap": "~3.3.5"
+  }
+}
