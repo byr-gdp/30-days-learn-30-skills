@@ -5,8 +5,3 @@ function goodMorning(name) {
 function goodNight(name) {
     return "Good night " + name;
 }
-
-
-function sofar() {
-    return "sogood";
-}
